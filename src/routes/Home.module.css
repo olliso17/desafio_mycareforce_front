@@ -1,0 +1,17 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 50vh;
+    background-color: rgb(252, 208, 128);
+    border-radius: 10px;
+}

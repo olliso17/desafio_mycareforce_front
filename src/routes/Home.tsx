@@ -1,6 +1,10 @@
+import classes from "./Home.module.css"
+
 const Home = ()=>{
     return(
-        <div>Você por aqui</div>
+        <div className={classes.home}>
+            <div className={classes.card}>Parabéns você logou!!</div>
+        </div>
     )
 }
 
