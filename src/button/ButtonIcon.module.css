@@ -1,0 +1,28 @@
+.button {
+  
+    border: none;
+    color: white;
+    right:0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color:#243142 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    background-color: #3f4d5e;
+}
+
+.icon {
+    margin-right: 8px;
+    /* Add some space between the icon and the text */
+}

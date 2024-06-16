@@ -1,0 +1,24 @@
+
+.button {
+    min-width: 300px;
+    max-width: 370px;
+    width: 37vw;
+    height: 47px;
+    top: 470px;
+    left: 457px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FE8A00;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
+    color: #1E2733;
+    border-radius: 5px;
+    margin-top:10px
+}
+.button:hover{
+    background-color: #e27e03;
+}

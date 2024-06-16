@@ -1,0 +1,40 @@
+.loginComponent {
+    min-width: 300px;
+    width: 37vw;
+    height: 40vh;
+    min-height: 200px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 21.52px;
+    font-weight: 400;
+    line-height: 26.23px;
+    text-align: center;
+
+}
+
+.span {
+    font-size: 21.52px;
+    font-weight: 800;
+    line-height: 26.23px;
+    text-align: center;
+
+}
+
+.input {
+    min-width: 300px;
+    max-width: 370px;
+    width: 37vw;
+    height: 35px;
+    margin:2px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+
+}
