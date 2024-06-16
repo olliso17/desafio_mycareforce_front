@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import Button from '../../button/Button';
 import useAuth from '../../hooks/useAuth';
 import classes from './CreateUserComponent.module.css';
