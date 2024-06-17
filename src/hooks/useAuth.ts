@@ -70,7 +70,8 @@ const useAuth = (): UseAuthReturn => {
                     email: email,
                     password: password,
                 });
-
+                
+                
                 if (response.status === 201 || response.status === 200) {
                     const access_token  = response.data['token'];
                     const now = new Date();
