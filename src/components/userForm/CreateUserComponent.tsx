@@ -2,6 +2,7 @@ import React, { useEffect} from 'react';
 import Button from '../../button/Button';
 import useAuth from '../../hooks/useAuth';
 import classes from './CreateUserComponent.module.css';
+import ButtonMenu from '../../button/ButtonMenu';
 
 const CreateUserComponent: React.FC = () => {
     const { setTypeComponent, name, email, password, errorMessage, handleInputChange, handleConfirmClick } = useAuth();
@@ -40,6 +41,7 @@ const CreateUserComponent: React.FC = () => {
                 />
                 <Button name='Confirmar' onClick={handleConfirmClick} />
                 {errorMessage && <p className={classes.error}>{errorMessage}</p>}
+                <ButtonMenu name='Acessar Conta' router='/login'/>
             </div>
         </>
     );

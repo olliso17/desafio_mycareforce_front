@@ -1,4 +1,5 @@
 .button {
+    margin-top: 15px;
     min-width: 100px;
     max-width: 100px;
     width: 20vw;
@@ -7,8 +8,9 @@
     left: 457px;
     gap: 0px;
     border-radius: 4px 0px 0px 0px;
+    border-width: 1px;
     opacity: 0px;
-    background-color: #FE8A00;
+    /* background-color: #FE8A00; */
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 700;
@@ -21,5 +23,5 @@
 }
 
 .button:hover {
-    background-color: #e27e03;
+    background-color: rgb(127, 127, 238);
 }
